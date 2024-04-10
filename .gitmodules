@@ -1,0 +1,4 @@
+[submodule "themes/poison"]
+	path = themes/poison
+	url = https://github.com/sergeypdev/poison.git
+	branch = fix-meta-html
