@@ -1,7 +1,7 @@
 baseURL = 'https://sergeyp.dev/'
 languageCode = 'en-us'
 theme = 'poison'
-title = 'My New Hugo Site'
+title = "sergeypdev's Blog"
 
 paginate = 10
 pluralizelisttitles = false # removes the automatically appended "s" on sidebar entries
@@ -10,11 +10,11 @@ pluralizelisttitles = false # removes the automatically appended "s" on sidebar 
 # disqusShortname = "yourDisqusShortname"
 
 [params]
-brand = "Poison" # name of your site - appears in the sidebar
+brand = "@sergeypdev" # name of your site - appears in the sidebar
 # remote_brand_image = 'https://github.com/USERNAME.png' # path to a remote file
 # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
-description = "Update this description..." # Used as default meta description if not specified in front matter
-dark_mode = true                           # optional - defaults to false
+description = "Software Developer\nGame Dev Enthusiast" # Used as default meta description if not specified in front matter
+dark_mode = true                                        # optional - defaults to false
 # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
 front_page_content = [
@@ -33,21 +33,21 @@ menu = [
 ]
 
 # Links to your socials.  Comment or delete any you don't need/use. 
-discord_url = "https://discord.com"
-email_url = "mailto://sergeypoznya"
-facebook_url = "https://facebook.com"
-flickr_url = "https://flickr.com"
-github_url = "https://github.com"
-gitlab_url = "https://gitlab.com"
-instagram_url = "https://instagram.com"
-linkedin_url = "https://linkedin.com"
-mastodon_url = "https://mastodon.social"
-matrix_url = "https://matrix.org"
-telegram_url = "https://telegram.org"
-tryhackme_url = "https://tryhackme.com"
-twitter_url = "https://twitter.com"
-xmpp_url = "https://xmpp.org"
-youtube_url = "https://youtube.com"
+# discord_url = "https://discord.com"
+email_url = "mailto://sergeipozniak@proton.me"
+# facebook_url = "https://facebook.com"
+# flickr_url = "https://flickr.com"
+github_url = "https://github.com/sergeypdev"
+# gitlab_url = "https://gitlab.com"
+# instagram_url = "https://instagram.com"
+linkedin_url = "https://www.linkedin.com/in/sergei-pozniak-471822a1/"
+# mastodon_url = "https://mastodon.social"
+# matrix_url = "https://matrix.org"
+telegram_url = "https://t.me/Sergeeeek"
+# tryhackme_url = "https://tryhackme.com"
+# twitter_url = "https://twitter.com"
+# xmpp_url = "https://xmpp.org"
+youtube_url = "https://www.youtube.com/channel/UCu8VjLrLUn72u7oAn8xmHHA"
 
 # NOTE: If you don't want to use RSS, comment or delete the following lines
 # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
