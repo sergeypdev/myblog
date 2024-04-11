@@ -1,0 +1,26 @@
+# fly.toml app configuration file generated for sergeypdev-remark42 on 2024-04-11T15:15:59+04:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'sergeypdev-remark42'
+primary_region = 'ams'
+
+[build]
+
+[http_service]
+internal_port = 8080
+force_https = true
+auto_stop_machines = true
+auto_start_machines = true
+min_machines_running = 0
+processes = ['app']
+
+[[vm]]
+memory = '1gb'
+cpu_kind = 'shared'
+cpus = 1
+
+[mounts]
+source = "sergeypdev_remark42_data"
+destination = "/srv/var"

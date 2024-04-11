@@ -94,9 +94,9 @@ table_stripe_color_dark = "#202020"          # default is #202020
 text_color_dark = "#EEE"                     # default is #EEE
 
 # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
-# remark42 = true
-# remark42_host = "https://yourhost.com"
-# remark42_site_id = "your_site_id"
+remark42 = true
+remark42_host = "https://sergeypdev-remark42.fly.dev"
+remark42_site_id = "remark"
 
 # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
 # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
