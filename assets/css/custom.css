@@ -1,0 +1,7 @@
+@media (max-width: 48em) {
+
+    body>.wrapper,
+    body.layout-reverse .wrapper {
+        flex-direction: column-reverse;
+    }
+}
